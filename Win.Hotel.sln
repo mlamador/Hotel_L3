@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Hotel", "Win.Hotel\Win.Hotel.csproj", "{A40CB7FC-F713-4228-8F49-4FA92DEF1578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Reservas", "BL.Reservas\BL.Reservas.csproj", "{E052C156-2AB9-45E1-8289-AA769117136A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40CB7FC-F713-4228-8F49-4FA92DEF1578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40CB7FC-F713-4228-8F49-4FA92DEF1578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40CB7FC-F713-4228-8F49-4FA92DEF1578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40CB7FC-F713-4228-8F49-4FA92DEF1578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E052C156-2AB9-45E1-8289-AA769117136A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E052C156-2AB9-45E1-8289-AA769117136A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E052C156-2AB9-45E1-8289-AA769117136A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E052C156-2AB9-45E1-8289-AA769117136A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721A4F3C-9318-4F68-8DE3-364AE0AF8C45}
+	EndGlobalSection
+EndGlobal

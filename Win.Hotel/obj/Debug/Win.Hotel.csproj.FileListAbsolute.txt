@@ -1,0 +1,66 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormLogin.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormMenu.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormHabitaciones.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormClientes.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormReservas.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\BL.Reservas.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\BL.Reservas.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\Lenovo\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\Lenovo\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.exe
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\Win.Hotel.pdb
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormClientes.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormHabitaciones.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormLogin.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormMenu.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.FormReservas.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.Properties.Resources.resources
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.csproj.CopyComplete
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\HP\Desktop\Win.Hotel\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\Win.Hotel.exe
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\Win.Hotel.pdb
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\EntityFramework.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\EntityFramework.xml
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.csprojAssemblyReference.cache
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.FormClientes.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.FormHabitaciones.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.FormLogin.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.FormMenu.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.FormReservas.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.Properties.Resources.resources
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.csproj.GenerateResource.cache
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.csproj.CopyComplete
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.pdb

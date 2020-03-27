@@ -1,0 +1,34 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.csproj.CopyComplete
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\HP\Desktop\Win.Hotel\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.csprojAssemblyReference.cache
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.csproj.CopyComplete
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.pdb
