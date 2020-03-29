@@ -52,8 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteBL.cs" />
     <Compile Include="DatosdeInicio.cs" />
     <Compile Include="Contexto.cs" />
+    <Compile Include="FacturaBL.cs" />
     <Compile Include="HabitacionesBL.cs" />
     <Compile Include="SeguridadBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

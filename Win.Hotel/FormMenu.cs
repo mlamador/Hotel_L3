@@ -45,13 +45,20 @@ namespace Win.Hotel
         private void reservasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var formReservas = new FormReservas();
-            //formReservas.MdiParent = this;
+            formReservas.MdiParent = this;
             formReservas.Show();
         }
 
         private void FormMenu_Load(object sender, EventArgs e)
         {
             Login();
+        }
+
+        private void facturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formFactura = new FormFactura();
+            formFactura.MdiParent = this;
+            formFactura.Show();
         }
     }
 }

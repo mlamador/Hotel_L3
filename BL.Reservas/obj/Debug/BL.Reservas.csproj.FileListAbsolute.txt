@@ -32,3 +32,23 @@ C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.csproj.CopyComplete
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.dll
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csprojResolveAssemblyReference.cache
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.pdb

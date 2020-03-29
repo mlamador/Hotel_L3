@@ -64,6 +64,12 @@
     <Compile Include="FormClientes.Designer.cs">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFactura.Designer.cs">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHabitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <EmbeddedResource Include="FormClientes.resx">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFactura.resx">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHabitaciones.resx">
       <DependentUpon>FormHabitaciones.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,9 +125,16 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\BL.Reservas.Cliente.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.ClienteBL.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.Contexto.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.DatosdeInicio.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.FacturaBL.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.Habitaciones.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.HabitacionesBL.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.Resultado.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.SeguridadBL.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.Tipo.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.TiposBL.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

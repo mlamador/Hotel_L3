@@ -24,6 +24,7 @@ namespace BL.Reservas
         {
 
             _contexto.habitacion.Load();
+
             listaHabitaciones = _contexto.habitacion.Local.ToBindingList();
 
             return listaHabitaciones;
@@ -86,6 +87,14 @@ namespace BL.Reservas
             var resultado = new Resultado();
             resultado.Exitoso = true;
 
+            if (habitacion==null)
+            {
+                resultado.Mensaje = "Agregue un producto valido";
+                resultado.Exitoso = false;
+                return resultado;
+            }//...
+
+
             if(string.IsNullOrEmpty(habitacion.Nombre) == true)
             {
                 resultado.Mensaje = "Ingrese un Nombre";
@@ -96,6 +105,7 @@ namespace BL.Reservas
                 resultado.Mensaje = "El precio debe ser mayor que cero";
                 resultado.Exitoso = false;
             }
+         
             return resultado;
         }
 
@@ -133,3 +143,14 @@ namespace BL.Reservas
         public string  Mensaje { get; set; }
     }
 }
+
+
+
+
+
+
+
+
+
+
+

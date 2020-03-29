@@ -64,3 +64,46 @@ C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.cspr
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.csproj.CopyComplete
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.exe
 C:\Users\HP\Source\Repos\mlamador\Win.Hotel_1\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.exe
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\BL.Reservas.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\BL.Reservas.pdb
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormClientes.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormHabitaciones.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormLogin.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormMenu.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormReservas.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormFactura.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.exe
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.pdb
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\BL.Reservas.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\BL.Reservas.pdb
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.xml
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.csprojResolveAssemblyReference.cache
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormClientes.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormFactura.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormHabitaciones.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormLogin.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormMenu.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.FormReservas.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.Properties.Resources.resources
+C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.csproj.GenerateResource.Cache
+C:\Users\yaden\Downloads\tratar de subir\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\bin\Debug\Win.Hotel.exe.config
+C:\Users\yaden\Downloads\tratar de subir\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.exe
+C:\Users\yaden\Downloads\tratar de subir\Hotel_L3-master (1)\Hotel_L3-master\Win.Hotel\obj\Debug\Win.Hotel.pdb
