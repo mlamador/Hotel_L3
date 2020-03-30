@@ -52,3 +52,27 @@ C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\bin\Deb
 C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csprojResolveAssemblyReference.cache
 C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.dll
 C:\Users\yaden\Downloads\Hotel_L3-master (1)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.csproj.CopyComplete
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\HP\Desktop\Hotel_L3-master (2)\Hotel_L3-master\BL.Reservas\obj\Debug\BL.Reservas.pdb
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\BL.Reservas.dll.config
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\BL.Reservas.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\BL.Reservas.pdb
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\EntityFramework.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\EntityFramework.xml
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\obj\Debug\BL.Reservas.csprojAssemblyReference.cache
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\obj\Debug\BL.Reservas.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\obj\Debug\BL.Reservas.csproj.CopyComplete
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\obj\Debug\BL.Reservas.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\BL.Reservas\obj\Debug\BL.Reservas.pdb

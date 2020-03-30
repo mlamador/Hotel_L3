@@ -21,6 +21,7 @@ namespace BL.Reservas
             listaTipos = new BindingList<Tipo>();
 
         }
+
         public BindingList<Tipo> ObtenerTipos()
         {
 

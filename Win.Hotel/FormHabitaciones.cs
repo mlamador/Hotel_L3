@@ -106,5 +106,6 @@ namespace Win.Hotel
             DeshabilitarHabilitarBotones(true);
            // Eliminar(0);
         }
+
     }
 }

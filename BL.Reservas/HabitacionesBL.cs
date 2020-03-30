@@ -11,6 +11,7 @@ namespace BL.Reservas
     public class HabitacionesBL
     {
         Contexto _contexto;
+
         public BindingList<Habitaciones> listaHabitaciones { get; set; }
 
         public HabitacionesBL()
@@ -48,7 +49,7 @@ namespace BL.Reservas
                 habitacion.Id = listaHabitaciones.Max(item => item.Id) + 1;
             }
 
-
+            _contexto.SaveChanges();
             resultado.Exitoso = true;
             return resultado;
         }
@@ -92,7 +93,13 @@ namespace BL.Reservas
                 resultado.Mensaje = "Agregue un producto valido";
                 resultado.Exitoso = false;
                 return resultado;
-            }//...
+            }
+
+            if (habitacion.TipoId == 0)
+            {
+                resultado.Mensaje = "Ingrese Tipo de Habitacion";
+                resultado.Exitoso = false;
+            }
 
 
             if(string.IsNullOrEmpty(habitacion.Nombre) == true)

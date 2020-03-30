@@ -60,5 +60,19 @@ namespace Win.Hotel
             formFactura.MdiParent = this;
             formFactura.Show();
         }
+
+        private void reporteDeHabitacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReporteHabitaciones = new FormReportesHabitaciones();
+            formReporteHabitaciones.MdiParent = this;
+            formReporteHabitaciones.Show();
+        }
+
+        private void reportesDeFacturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReporteFacturas = new FormReportesFacturas();
+            formReporteFacturas.MdiParent = this;
+            formReporteFacturas.Show();
+        }
     }
 }
