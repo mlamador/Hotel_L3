@@ -37,6 +37,7 @@ namespace Win.Hotel
 
             button1.Enabled = false;
             button1.Text = "Verificando...";
+
             Application.DoEvents();
 
             var usuarioDB = _seguridad.Autorizar(usuario, contrasena);

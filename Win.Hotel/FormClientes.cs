@@ -108,6 +108,8 @@ namespace Win.Hotel
             listaClientesBindingSource.ResetBindings(false);
         }
 
+        //Eliminar
+
         private void Eliminar(int id)
         {
             var resultado = _clientes.EliminarCliente(id);

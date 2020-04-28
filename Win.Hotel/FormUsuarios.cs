@@ -21,9 +21,7 @@ namespace Win.Hotel
 
             _seguridadBL = new SeguridadBL();
 
-            usuariosBindingSource.DataSource =
-                _seguridadBL.ObtenerUsuarios();
-
+            usuariosBindingSource.DataSource = _seguridadBL.ObtenerUsuarios();
 
         }
 

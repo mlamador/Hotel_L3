@@ -29,18 +29,6 @@ namespace BL.Reservas
             return ListaClientes;
         }
 
-        public BindingList<Cliente> ObtenerClientes(string buscar)
-        {
-            var query = _contexto.Clientes
-                .Where(p => p.Nombre.ToLower()
-                    .Contains(buscar.ToLower()) == true)
-                        .ToList();
-
-            var resultado = new BindingList<Cliente>(query);
-
-            return resultado;
-        }
-
         public void CancelarCambios()
         {
             foreach (var item in _contexto.ChangeTracker.Entries())
@@ -82,6 +70,18 @@ namespace BL.Reservas
             }
 
             return false;
+        }
+
+        public BindingList<Cliente> ObtenerClientes(string buscar)
+        {
+            var query = _contexto.Clientes
+                .Where(p => p.Nombre.ToLower()
+                    .Contains(buscar.ToLower()) == true)
+                        .ToList();
+
+            var resultado = new BindingList<Cliente>(query);
+
+            return resultado;
         }
 
         private Resultado Validar(Cliente cliente)

@@ -67,8 +67,6 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.listaHabitacionesDataGridView = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             efectivoLabel = new System.Windows.Forms.Label();
             idLabel = new System.Windows.Forms.Label();
             nombreLabel = new System.Windows.Forms.Label();
@@ -173,7 +171,7 @@
             this.listaHabitacionesBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.listaHabitacionesBindingNavigator.Name = "listaHabitacionesBindingNavigator";
             this.listaHabitacionesBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listaHabitacionesBindingNavigator.Size = new System.Drawing.Size(667, 25);
+            this.listaHabitacionesBindingNavigator.Size = new System.Drawing.Size(664, 25);
             this.listaHabitacionesBindingNavigator.TabIndex = 0;
             this.listaHabitacionesBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -296,7 +294,7 @@
             this.efectivoCheckBox.Location = new System.Drawing.Point(70, 172);
             this.efectivoCheckBox.Name = "efectivoCheckBox";
             this.efectivoCheckBox.Size = new System.Drawing.Size(19, 24);
-            this.efectivoCheckBox.TabIndex = 3;
+            this.efectivoCheckBox.TabIndex = 4;
             this.efectivoCheckBox.UseVisualStyleBackColor = true;
             // 
             // idTextBox
@@ -313,7 +311,7 @@
             this.nombreTextBox.Location = new System.Drawing.Point(70, 64);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(121, 20);
-            this.nombreTextBox.TabIndex = 7;
+            this.nombreTextBox.TabIndex = 0;
             // 
             // precioTextBox
             // 
@@ -321,7 +319,7 @@
             this.precioTextBox.Location = new System.Drawing.Point(70, 90);
             this.precioTextBox.Name = "precioTextBox";
             this.precioTextBox.Size = new System.Drawing.Size(121, 20);
-            this.precioTextBox.TabIndex = 9;
+            this.precioTextBox.TabIndex = 1;
             // 
             // tarjetaCheckBox
             // 
@@ -329,7 +327,7 @@
             this.tarjetaCheckBox.Location = new System.Drawing.Point(70, 191);
             this.tarjetaCheckBox.Name = "tarjetaCheckBox";
             this.tarjetaCheckBox.Size = new System.Drawing.Size(19, 24);
-            this.tarjetaCheckBox.TabIndex = 11;
+            this.tarjetaCheckBox.TabIndex = 5;
             this.tarjetaCheckBox.UseVisualStyleBackColor = true;
             // 
             // tipoHTextBox
@@ -338,7 +336,7 @@
             this.tipoHTextBox.Location = new System.Drawing.Point(70, 116);
             this.tipoHTextBox.Name = "tipoHTextBox";
             this.tipoHTextBox.Size = new System.Drawing.Size(121, 20);
-            this.tipoHTextBox.TabIndex = 13;
+            this.tipoHTextBox.TabIndex = 2;
             // 
             // tipoIdComboBox
             // 
@@ -350,7 +348,7 @@
             this.tipoIdComboBox.Location = new System.Drawing.Point(70, 143);
             this.tipoIdComboBox.Name = "tipoIdComboBox";
             this.tipoIdComboBox.Size = new System.Drawing.Size(121, 21);
-            this.tipoIdComboBox.TabIndex = 15;
+            this.tipoIdComboBox.TabIndex = 3;
             this.tipoIdComboBox.ValueMember = "Id";
             // 
             // listaTiposBindingSource
@@ -405,35 +403,16 @@
             this.dataGridViewCheckBoxColumn1,
             this.dataGridViewCheckBoxColumn2});
             this.listaHabitacionesDataGridView.DataSource = this.listaHabitacionesBindingSource;
-            this.listaHabitacionesDataGridView.Location = new System.Drawing.Point(12, 249);
+            this.listaHabitacionesDataGridView.Location = new System.Drawing.Point(10, 223);
             this.listaHabitacionesDataGridView.Name = "listaHabitacionesDataGridView";
             this.listaHabitacionesDataGridView.Size = new System.Drawing.Size(645, 170);
             this.listaHabitacionesDataGridView.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(348, 222);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(206, 20);
-            this.textBox1.TabIndex = 16;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(580, 220);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormHabitaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 469);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(664, 399);
             this.Controls.Add(tipoIdLabel);
             this.Controls.Add(this.tipoIdComboBox);
             this.Controls.Add(efectivoLabel);
@@ -497,7 +476,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridView listaHabitacionesDataGridView;
         private System.Windows.Forms.BindingSource listaTiposBindingSource;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
     }
 }

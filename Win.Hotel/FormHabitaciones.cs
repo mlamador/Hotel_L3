@@ -106,7 +106,7 @@ namespace Win.Hotel
             // Eliminar(0);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        /*private void button1_Click(object sender, EventArgs e)
         {
             var buscar = textBox1.Text;
 
@@ -123,6 +123,6 @@ namespace Win.Hotel
 
 
             listaHabitacionesBindingSource.ResetBindings(false);
-        }
+        }*/
     }
 }

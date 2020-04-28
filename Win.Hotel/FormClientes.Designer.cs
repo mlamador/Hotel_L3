@@ -243,7 +243,7 @@
             this.activoCheckBox.Location = new System.Drawing.Point(64, 97);
             this.activoCheckBox.Name = "activoCheckBox";
             this.activoCheckBox.Size = new System.Drawing.Size(104, 24);
-            this.activoCheckBox.TabIndex = 3;
+            this.activoCheckBox.TabIndex = 1;
             this.activoCheckBox.UseVisualStyleBackColor = true;
             // 
             // idTextBox
@@ -261,14 +261,14 @@
             this.nombreTextBox.Location = new System.Drawing.Point(64, 67);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(104, 20);
-            this.nombreTextBox.TabIndex = 7;
+            this.nombreTextBox.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(282, 128);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -278,7 +278,7 @@
             this.textBox1.Location = new System.Drawing.Point(109, 130);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(167, 20);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 3;
             // 
             // clienteDataGridView
             // 
