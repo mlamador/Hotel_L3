@@ -17,18 +17,18 @@ namespace Win.Hotel
         {
             InitializeComponent();
 
-            var _productoBL = new HabitacionesBL();
+            var _habitacionBL = new HabitacionesBL();
             var _tiposBL = new TiposBL();
 
             var bindingSource1 = new BindingSource();
-            bindingSource1.DataSource = _productoBL.ObtenerHabitaciones();
+            bindingSource1.DataSource = _habitacionBL.ObtenerHabitaciones();
 
-            var bindingSource3 = new BindingSource();
-            bindingSource3.DataSource = _tiposBL.ObtenerTipos();
+            var bindingSource2 = new BindingSource();
+            bindingSource2.DataSource = _tiposBL.ObtenerTipos();
 
             var reporte = new ReporteHabitaciones();
-            reporte.Database.Tables["Producto"].SetDataSource(bindingSource1);
-            reporte.Database.Tables["Tipo"].SetDataSource(bindingSource3);
+            reporte.Database.Tables["Habitaciones"].SetDataSource(bindingSource1);
+            reporte.Database.Tables["Tipo"].SetDataSource(bindingSource2);
 
             crystalReportViewer1.ReportSource = reporte;
             crystalReportViewer1.RefreshReport();

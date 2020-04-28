@@ -16,12 +16,15 @@ namespace Win.Hotel {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class ReporteHabitaciones : ReportClass {
+    public class ReporteHabitaciones : ReportClass 
+    {
         
-        public ReporteHabitaciones() {
+        public ReporteHabitaciones() 
+        {
         }
         
-        public override string ResourceName {
+        public override string ResourceName 
+        {
             get {
                 return "ReporteHabitaciones.rpt";
             }
@@ -30,7 +33,8 @@ namespace Win.Hotel {
             }
         }
         
-        public override bool NewGenerator {
+        public override bool NewGenerator 
+        {
             get {
                 return true;
             }
@@ -39,7 +43,8 @@ namespace Win.Hotel {
             }
         }
         
-        public override string FullResourceName {
+        public override string FullResourceName 
+        {
             get {
                 return "Win.Hotel.ReporteHabitaciones.rpt";
             }
@@ -50,7 +55,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section1 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section1 
+        {
             get {
                 return this.ReportDefinition.Sections[0];
             }
@@ -58,7 +64,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section2 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section2 
+        {
             get {
                 return this.ReportDefinition.Sections[1];
             }
@@ -66,7 +73,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section3 
+        {
             get {
                 return this.ReportDefinition.Sections[2];
             }
@@ -74,7 +82,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section4 
+        {
             get {
                 return this.ReportDefinition.Sections[3];
             }
@@ -82,7 +91,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section5 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section5 
+        {
             get {
                 return this.ReportDefinition.Sections[4];
             }
@@ -90,14 +100,17 @@ namespace Win.Hotel {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedReporteHabitaciones : Component, ICachedReport {
+    public class CachedReporteHabitaciones : Component, ICachedReport 
+    {
         
-        public CachedReporteHabitaciones() {
+        public CachedReporteHabitaciones() 
+        {
         }
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public virtual bool IsCacheable {
+        public virtual bool IsCacheable 
+        {
             get {
                 return true;
             }
@@ -108,7 +121,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public virtual bool ShareDBLogonInfo {
+        public virtual bool ShareDBLogonInfo 
+        {
             get {
                 return false;
             }
@@ -119,7 +133,8 @@ namespace Win.Hotel {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public virtual System.TimeSpan CacheTimeOut {
+        public virtual System.TimeSpan CacheTimeOut 
+        {
             get {
                 return CachedReportConstants.DEFAULT_TIMEOUT;
             }
@@ -128,25 +143,17 @@ namespace Win.Hotel {
             }
         }
         
-        public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
+        public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() 
+        {
             ReporteHabitaciones rpt = new ReporteHabitaciones();
             rpt.Site = this.Site;
             return rpt;
         }
         
-        public virtual string GetCustomizedCacheKey(RequestContext request) {
+        public virtual string GetCustomizedCacheKey(RequestContext request) 
+        {
             String key = null;
-            // // The following is the code used to generate the default
-            // // cache key for caching report jobs in the ASP.NET Cache.
-            // // Feel free to modify this code to suit your needs.
-            // // Returning key == null causes the default cache key to
-            // // be generated.
-            // 
-            // key = RequestContext.BuildCompleteCacheKey(
-            //     request,
-            //     null,       // sReportFilename
-            //     this.GetType(),
-            //     this.ShareDBLogonInfo );
+            
             return key;
         }
     }

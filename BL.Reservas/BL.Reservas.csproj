@@ -65,7 +65,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Cliente.datasource" />
-    <None Include="Properties\DataSources\ClienteBL.datasource" />
+    <None Include="Properties\DataSources\ClientesBL.datasource" />
     <None Include="Properties\DataSources\Contexto.datasource" />
     <None Include="Properties\DataSources\DatosdeInicio.datasource" />
     <None Include="Properties\DataSources\Factura.datasource" />
@@ -73,7 +73,6 @@
     <None Include="Properties\DataSources\FacturaDetalle.datasource" />
     <None Include="Properties\DataSources\Habitaciones.datasource" />
     <None Include="Properties\DataSources\HabitacionesBL.datasource" />
-    <None Include="Properties\DataSources\Resultad.datasource" />
     <None Include="Properties\DataSources\Resultado.datasource" />
     <None Include="Properties\DataSources\SeguridadBL.datasource" />
     <None Include="Properties\DataSources\Tipo.datasource" />

@@ -46,7 +46,7 @@ namespace BL.Reservas
                 return resultado;
             }
 
-            if (usuario.Id == 1)
+            if (usuario.Id == 0)
             {
                 usuario.Id = ListaUsuarios.Max(item => item.Id) + 1;
             }

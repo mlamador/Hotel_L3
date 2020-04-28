@@ -34,14 +34,14 @@ namespace Win.Hotel
 
                 if (Program.UsuarioLogueado.TipoUsuario == "Recepcion")
                 {
-                    habitacionesToolStripMenuItem.Visible = false;
-                    clienteToolStripMenuItem.Visible = false;
+                    habitacionesToolStripMenuItem.Visible = true;
+                    clienteToolStripMenuItem.Visible = true;
                     rentasToolStripMenuItem.Visible = true;
                     facturasToolStripMenuItem.Visible = true;
                     usuarioToolStripMenuItem.Visible = false;
                     reportesToolStripMenuItem.Visible = false;
                     reporteDeRentasToolStripMenuItem.Visible = true;
-                    reportesDeFacturasToolStripMenuItem.Visible = true;
+                    reportesDeFacturasToolStripMenuItem.Visible = false;
                     reporteDeHabitacionesToolStripMenuItem.Visible = false;
 
                 }

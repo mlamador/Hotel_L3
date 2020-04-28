@@ -125,6 +125,7 @@ namespace Win.Hotel
                 }
             }
         }
+
         private void Anular(int id)
         {
             var resultado = _facturaBL.AnularFactura(id);//...
@@ -152,10 +153,8 @@ namespace Win.Hotel
             {
                 label1.Visible = false;
             }
-
-
-
         }
+
     }
 }
 

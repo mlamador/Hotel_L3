@@ -37,7 +37,7 @@ namespace BL.Reservas
         }
         public void AgregarFacturaDetalle(Factura factura)
         {
-            if(factura !=null)
+            if (factura != null)
             {
                 var nuevoDetalle = new FacturaDetalle();
                 factura.FacturaDetalle.Add(nuevoDetalle);
@@ -45,7 +45,7 @@ namespace BL.Reservas
         }
         public void RemoverFacturaDetalle(Factura factura, FacturaDetalle facturaDetalle)
         {
-            if(factura != null && facturaDetalle != null)
+            if (factura != null && facturaDetalle != null)
             {
                 factura.FacturaDetalle.Remove(facturaDetalle);
             }
@@ -61,7 +61,7 @@ namespace BL.Reservas
         }
 
         public Resultado GuardarFactura(Factura factura)
-        {   
+        {
             var resultado = Validar(factura);
             if (resultado.Exitoso == false)
             {
@@ -76,14 +76,14 @@ namespace BL.Reservas
         {
             var resultado = new Resultado();
             resultado.Exitoso = true;
-            if(factura == null)
+            if (factura == null)
             {
                 resultado.Mensaje = "Agregar para poderla salvar";
                 resultado.Exitoso = false;
                 return resultado;
             }
 
-            if (factura.Id!=0 && factura.Activo == true) //...?
+            if (factura.Id != 0 && factura.Activo == true) //...?
             {
                 resultado.Mensaje = "La factura ya fue emitida y o se puede realsar cambios en ella";
                 resultado.Exitoso = false;
@@ -92,11 +92,11 @@ namespace BL.Reservas
 
 
             if (factura.Activo == false) //...?
-                     {
-                         resultado.Mensaje = "La factura esta anulada y no se puede guardar";
-                         resultado.Exitoso = false;
+            {
+                resultado.Mensaje = "La factura esta anulada y no se puede guardar";
+                resultado.Exitoso = false;
+            }
 
-                     }
             if (factura.ClienteId == 0)
             {
                 resultado.Mensaje = "Seleccione un cliente";
@@ -112,7 +112,7 @@ namespace BL.Reservas
 
             foreach (var detalle in factura.FacturaDetalle)
             {
-                if (detalle.HabitacionId ==0)
+                if (detalle.HabitacionId == 0)
                 {
                     resultado.Mensaje = "Seleccione productos validos";
                 }
@@ -122,14 +122,14 @@ namespace BL.Reservas
         }
         public void CalcularFactura(Factura factura)
         {
-            if(factura !=null)
+            if (factura != null)
             {
                 double subtotal = 0;
 
                 foreach (var detalle in factura.FacturaDetalle)
                 {
                     var habitaciones = _contexto.habitacion.Find(detalle.HabitacionId);
-                    if(habitaciones != null)
+                    if (habitaciones != null)
                     {
                         detalle.Precio = habitaciones.Precio;
                         detalle.Total = habitaciones.Precio;
@@ -156,11 +156,10 @@ namespace BL.Reservas
             }
 
             return false;
-
         }
+    }
 
-       }
-        public class Factura
+    public class Factura
     {
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
@@ -180,11 +179,12 @@ namespace BL.Reservas
         }
 
     }
+
     public class FacturaDetalle
     {
         public int Id { get; set; }
         public int HabitacionId { get; set; }
-        public Habitaciones Habitaciones { get; set; }        
+        public Habitaciones Habitaciones { get; set; }
         public double Precio { get; set; }
         public double Total { get; set; }
 

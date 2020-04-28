@@ -227,3 +227,8 @@ C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.csproj.
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.exe
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.pdb
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.FormUsuarios.resources
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\bin\Debug\AxShockwaveFlashObjects.dll

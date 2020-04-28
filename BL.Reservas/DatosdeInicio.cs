@@ -10,7 +10,7 @@ namespace BL.Reservas
 {
     public class DatosdeInicio : CreateDatabaseIfNotExists<Contexto>
     {
-       protected override void Seed(Contexto contexto)
+        protected override void Seed(Contexto contexto)
         {
             var usuarioAdmin = new Usuario();
             usuarioAdmin.Nombre = "admin";
@@ -31,11 +31,12 @@ namespace BL.Reservas
             tipo3.Descripcion = "Habitacion Triple";
             contexto.Tipos.Add(tipo3);
 
+            //Tabla de clientes
 
             var archivo = "../../../clientes.csv";
             using (var reader = new StreamReader(archivo))
             {
-                reader.ReadLine(); // Lee primera fila de encabezados
+                reader.ReadLine();
 
                 while (!reader.EndOfStream)
                 {
@@ -50,10 +51,8 @@ namespace BL.Reservas
                 }
             }
 
-
             base.Seed(contexto);
-            }
-        
+        }
     }
 
 }

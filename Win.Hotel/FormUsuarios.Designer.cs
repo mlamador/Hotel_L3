@@ -130,7 +130,7 @@
             this.ListaUsuariosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.ListaUsuariosBindingNavigator.Name = "ListaUsuariosBindingNavigator";
             this.ListaUsuariosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.ListaUsuariosBindingNavigator.Size = new System.Drawing.Size(333, 25);
+            this.ListaUsuariosBindingNavigator.Size = new System.Drawing.Size(349, 25);
             this.ListaUsuariosBindingNavigator.TabIndex = 0;
             this.ListaUsuariosBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -238,7 +238,7 @@
             // 
             this.toolStripButtonCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonCancelar.Name = "toolStripButtonCancelar";
-            this.toolStripButtonCancelar.Size = new System.Drawing.Size(53, 15);
+            this.toolStripButtonCancelar.Size = new System.Drawing.Size(53, 22);
             this.toolStripButtonCancelar.Text = "Cancelar";
             this.toolStripButtonCancelar.Click += new System.EventHandler(this.toolStripButtonCancelar_Click);
             // 
@@ -251,7 +251,7 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn4});
             this.usuarioDataGridView.DataSource = this.usuariosBindingSource;
-            this.usuarioDataGridView.Location = new System.Drawing.Point(14, 149);
+            this.usuarioDataGridView.Location = new System.Drawing.Point(22, 149);
             this.usuarioDataGridView.Name = "usuarioDataGridView";
             this.usuarioDataGridView.Size = new System.Drawing.Size(304, 220);
             this.usuarioDataGridView.TabIndex = 1;
@@ -303,6 +303,7 @@
             // 
             this.tipoUsuarioComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "TipoUsuario", true));
             this.tipoUsuarioComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedItem", this.usuariosBindingSource, "TipoUsuario", true));
+            this.tipoUsuarioComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tipoUsuarioComboBox.FormattingEnabled = true;
             this.tipoUsuarioComboBox.Items.AddRange(new object[] {
             "Administrador",
@@ -316,7 +317,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 376);
+            this.ClientSize = new System.Drawing.Size(349, 376);
             this.Controls.Add(contrasenaLabel);
             this.Controls.Add(this.contrasenaTextBox);
             this.Controls.Add(idLabel);
@@ -328,6 +329,7 @@
             this.Controls.Add(this.usuarioDataGridView);
             this.Controls.Add(this.ListaUsuariosBindingNavigator);
             this.Name = "FormUsuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormUsuarios";
             ((System.ComponentModel.ISupportInitialize)(this.ListaUsuariosBindingNavigator)).EndInit();
             this.ListaUsuariosBindingNavigator.ResumeLayout(false);
