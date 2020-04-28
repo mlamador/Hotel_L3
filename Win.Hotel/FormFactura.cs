@@ -14,7 +14,7 @@ namespace Win.Hotel
     public partial class FormFactura : Form
     {
         FacturaBL _facturaBL;
-        ClienteBL _clienteBL;
+        ClientesBL _clienteBL;
         HabitacionesBL _habitacionBL;
         public FormFactura()
         {
@@ -22,7 +22,7 @@ namespace Win.Hotel
             _facturaBL = new FacturaBL();
             listaClientesBindingSource.DataSource = _facturaBL.ObtenerFacturas();
 
-            _clienteBL = new ClienteBL();
+            _clienteBL = new ClientesBL();
             listaClientesBindingSource.DataSource = _clienteBL.ObtenerClientes();
 
             _habitacionBL = new HabitacionesBL();
@@ -62,7 +62,7 @@ namespace Win.Hotel
             var factura = (Factura)listaFacturasBindingSource.Current;
             var resultado = _facturaBL.GuardarFactura(factura);
 
-            if(resultado.Exitoso == true)
+            if (resultado.Exitoso == true)
             {
                 listaFacturasBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
@@ -97,7 +97,7 @@ namespace Win.Hotel
             _facturaBL.RemoverFacturaDetalle(factura, facturaDetalle);
 
             DeshabilitarHabilitarBotones(false);
-      }
+        }
 
         private void facturaDetalleDataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
@@ -128,10 +128,9 @@ namespace Win.Hotel
         private void Anular(int id)
         {
             var resultado = _facturaBL.AnularFactura(id);//...
-            if(resultado == true)
+            if (resultado == true)
             {
                 listaFacturasBindingSource.ResetBindings(false);
-       
             }
             else
             {
@@ -145,7 +144,7 @@ namespace Win.Hotel
             //...
             var factura = (Factura)listaFacturasBindingSource.Current;
 
-            if (factura != null && factura.Id != 0 && factura.Activo==false)
+            if (factura != null && factura.Id != 0 && factura.Activo == false)
             {
                 label1.Visible = true;
             }

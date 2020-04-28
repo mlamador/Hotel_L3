@@ -13,13 +13,13 @@ namespace Win.Hotel
 {
     public partial class FormClientes : Form
     {
-        ClienteBL _clientes;
+        ClientesBL _clientes;
 
         public FormClientes()
         {
             InitializeComponent();
 
-            _clientes = new ClienteBL();
+            _clientes = new ClientesBL();
             listaClientesBindingSource.DataSource = _clientes.ObtenerClientes();
 
         }
@@ -38,7 +38,7 @@ namespace Win.Hotel
 
             var resultado = _clientes.GuardarCliente(cliente);
 
-            if(resultado.Exitoso == true)
+            if (resultado.Exitoso == true)
             {
                 listaClientesBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
@@ -76,11 +76,10 @@ namespace Win.Hotel
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
-            
             if (idTextBox.Text != " ")
             {
                 var resultado = MessageBox.Show("Desea eliminar este registro?", "Eliminar", MessageBoxButtons.YesNo);
-                if(resultado  == DialogResult.Yes)
+                if (resultado == DialogResult.Yes)
                 {
                     var id = Convert.ToInt32(idTextBox.Text);
                     Eliminar(id);
@@ -88,10 +87,12 @@ namespace Win.Hotel
             }
         }
 
+        //Buscar
+
+
+
         private void Eliminar(int id)
         {
-            
-
             var resultado = _clientes.EliminarCliente(id);
 
             if (resultado == true)

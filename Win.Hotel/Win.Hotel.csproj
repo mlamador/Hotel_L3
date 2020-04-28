@@ -118,6 +118,12 @@
     <Compile Include="FormReservas.Designer.cs">
       <DependentUpon>FormReservas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuarios.Designer.cs">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReporteFacturas.cs">
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormReservas.resx">
       <DependentUpon>FormReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuarios.resx">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -197,6 +206,7 @@
     <None Include="Properties\DataSources\BL.Reservas.SeguridadBL.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.Tipo.datasource" />
     <None Include="Properties\DataSources\BL.Reservas.TiposBL.datasource" />
+    <None Include="Properties\DataSources\BL.Reservas.Usuario1.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

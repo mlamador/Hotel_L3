@@ -38,7 +38,7 @@ namespace Win.Hotel
             var habitacion = (Habitaciones)listaHabitacionesBindingSource.Current;
 
             var resultado = _habitaciones.GuardarHabitaciones(habitacion);
-            if(resultado.Exitoso == true)
+            if (resultado.Exitoso == true)
             {
                 listaHabitacionesBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
@@ -81,7 +81,6 @@ namespace Win.Hotel
                     var id = Convert.ToInt32(idTextBox.Text);
                     Eliminar(id);
                 }
-               
             }
         }
 
@@ -104,8 +103,26 @@ namespace Win.Hotel
         {
             _habitaciones.CancelarCambios();
             DeshabilitarHabilitarBotones(true);
-           // Eliminar(0);
+            // Eliminar(0);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var buscar = textBox1.Text;
+
+            if (string.IsNullOrEmpty(buscar) == true)
+            {
+                listaHabitacionesBindingSource.DataSource =
+                    _habitaciones.ObtenerHabitaciones();
+            }
+            else
+            {
+                listaHabitacionesBindingSource.DataSource =
+                    _habitaciones.ObtenerHabitaciones(buscar);
+            }
+
+
+            listaHabitacionesBindingSource.ResetBindings(false);
+        }
     }
 }

@@ -21,11 +21,11 @@ namespace BL.Reservas
             listaHabitaciones = new BindingList<Habitaciones>();
 
         }
+
         public BindingList<Habitaciones> ObtenerHabitaciones()
         {
 
             _contexto.habitacion.Load();
-
             listaHabitaciones = _contexto.habitacion.Local.ToBindingList();
 
             return listaHabitaciones;
@@ -35,11 +35,11 @@ namespace BL.Reservas
         //GUARDAR
 
 
-        public  Resultado  GuardarHabitaciones(Habitaciones habitacion)
+        public Resultado GuardarHabitaciones(Habitaciones habitacion)
         {
             var resultado = Validar(habitacion);
 
-            if(resultado.Exitoso == false)
+            if (resultado.Exitoso == false)
             {
                 return resultado;
             }
@@ -66,14 +66,14 @@ namespace BL.Reservas
         }
 
 
-         //ELIMINAR
+        //ELIMINAR
 
 
         public bool ElimarHabitaciones(int id)
         {
             foreach (var habitacion in listaHabitaciones)
             {
-                if (habitacion.Id == id )
+                if (habitacion.Id == id)
                 {
                     listaHabitaciones.Remove(habitacion);
                     return true;
@@ -88,7 +88,7 @@ namespace BL.Reservas
             var resultado = new Resultado();
             resultado.Exitoso = true;
 
-            if (habitacion==null)
+            if (habitacion == null)
             {
                 resultado.Mensaje = "Agregue un producto valido";
                 resultado.Exitoso = false;
@@ -102,7 +102,7 @@ namespace BL.Reservas
             }
 
 
-            if(string.IsNullOrEmpty(habitacion.Nombre) == true)
+            if (string.IsNullOrEmpty(habitacion.Nombre) == true)
             {
                 resultado.Mensaje = "Ingrese un Nombre";
                 resultado.Exitoso = false;
@@ -112,7 +112,6 @@ namespace BL.Reservas
                 resultado.Mensaje = "El precio debe ser mayor que cero";
                 resultado.Exitoso = false;
             }
-         
             return resultado;
         }
 
@@ -121,16 +120,33 @@ namespace BL.Reservas
 
         public void CancelarCambios()
         {
-           foreach (var item in _contexto.ChangeTracker.Entries())
-                {
-                    item.State = EntityState.Unchanged;
-                    item.Reload();
-                }
+            foreach (var item in _contexto.ChangeTracker.Entries())
+            {
+                item.State = EntityState.Unchanged;
+                item.Reload();
+            }
 
             _contexto.SaveChanges();
 
         }
+
+
+        //Buscar
+        public BindingList<Habitaciones> ObtenerHabitaciones(string buscar)
+        {
+            var query = _contexto.habitacion
+                .Where(p => p.Descripcion.ToLower()
+                    .Contains(buscar.ToLower()) == true)
+                        .ToList();
+
+            var resultado = new BindingList<Habitaciones>(query);
+
+            return resultado;
+        }
+
     }
+
+
     public class Habitaciones
     {
         public int Id { get; set; }
@@ -139,6 +155,7 @@ namespace BL.Reservas
         public double Precio { get; set; }
         public bool Efectivo { get; set; }
         public bool Tarjeta { get; set; }
+        public string Descripcion { get; set; }
 
         public int TipoId { get; set; }
         public Tipo Tipo { get; set; }
@@ -147,7 +164,7 @@ namespace BL.Reservas
     public class Resultado
     {
         public bool Exitoso { get; set; }
-        public string  Mensaje { get; set; }
+        public string Mensaje { get; set; }
     }
 }
 

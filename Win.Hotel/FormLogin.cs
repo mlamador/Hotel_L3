@@ -35,15 +35,40 @@ namespace Win.Hotel
             usuario = textBox1.Text;
             contrasena = textBox2.Text;
 
-            var resultado = _seguridad.Autorizar(usuario, contrasena);
+            button1.Enabled = false;
+            button1.Text = "Verificando...";
+            Application.DoEvents();
 
-            if (resultado == true)
+            var usuarioDB = _seguridad.Autorizar(usuario, contrasena);
+
+            if (usuarioDB != null)
             {
+                Program.UsuarioLogueado = usuarioDB;
+
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Usuario O Contrasena Incorrecta");
+                MessageBox.Show("Usuario o contraseña incorrecta");
+            }
+
+            button1.Enabled = true;
+            button1.Text = "Aceptar";
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter) && !string.IsNullOrEmpty(textBox1.Text))
+            {
+                textBox2.Focus();
+            }
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter) && !string.IsNullOrEmpty(textBox2.Text))
+            {
+                button1.PerformClick();
             }
         }
     }

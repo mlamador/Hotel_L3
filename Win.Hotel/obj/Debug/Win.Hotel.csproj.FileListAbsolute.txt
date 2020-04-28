@@ -226,3 +226,4 @@ C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.csproj.
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.csproj.CopyComplete
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.exe
 C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.pdb
+C:\Users\HP\Source\Repos\mlamador\Hotel_L3\Win.Hotel\obj\Debug\Win.Hotel.FormUsuarios.resources

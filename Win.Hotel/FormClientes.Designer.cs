@@ -118,7 +118,7 @@
             this.listaClientesBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.listaClientesBindingNavigator.Name = "listaClientesBindingNavigator";
             this.listaClientesBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listaClientesBindingNavigator.Size = new System.Drawing.Size(407, 25);
+            this.listaClientesBindingNavigator.Size = new System.Drawing.Size(368, 25);
             this.listaClientesBindingNavigator.TabIndex = 0;
             this.listaClientesBindingNavigator.Text = "bindingNavigator1";
             this.listaClientesBindingNavigator.RefreshItems += new System.EventHandler(this.listaClientesBindingNavigator_RefreshItems);
@@ -181,6 +181,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Posición";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -245,7 +246,7 @@
             this.listaClientesDataGridView.DataSource = this.listaClientesBindingSource;
             this.listaClientesDataGridView.Location = new System.Drawing.Point(12, 127);
             this.listaClientesDataGridView.Name = "listaClientesDataGridView";
-            this.listaClientesDataGridView.Size = new System.Drawing.Size(313, 220);
+            this.listaClientesDataGridView.Size = new System.Drawing.Size(344, 220);
             this.listaClientesDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -296,7 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 353);
+            this.ClientSize = new System.Drawing.Size(368, 353);
             this.Controls.Add(activoLabel);
             this.Controls.Add(this.activoCheckBox);
             this.Controls.Add(idLabel);

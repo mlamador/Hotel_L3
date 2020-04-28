@@ -26,6 +26,44 @@ namespace Win.Hotel
         {
             var formLogin = new FormLogin();
             formLogin.ShowDialog();
+
+            if (Program.UsuarioLogueado != null)
+            {
+                toolStripStatusLabel1.Text = "Usuario: "
+                    + Program.UsuarioLogueado.Nombre;
+
+                if (Program.UsuarioLogueado.TipoUsuario == "Recepcion")
+                {
+                    habitacionesToolStripMenuItem.Visible = false;
+                    clienteToolStripMenuItem.Visible = false;
+                    rentasToolStripMenuItem.Visible = true;
+                    facturasToolStripMenuItem.Visible = true;
+                    usuarioToolStripMenuItem.Visible = false;
+                    reportesToolStripMenuItem.Visible = false;
+                    reporteDeRentasToolStripMenuItem.Visible = true;
+                    reportesDeFacturasToolStripMenuItem.Visible = true;
+                    reporteDeHabitacionesToolStripMenuItem.Visible = false;
+
+                }
+
+                if (Program.UsuarioLogueado.TipoUsuario == "Administrador")
+                {
+                    habitacionesToolStripMenuItem.Visible = true;
+                    clienteToolStripMenuItem.Visible = true;
+                    rentasToolStripMenuItem.Visible = true;
+                    facturasToolStripMenuItem.Visible = true;
+                    usuarioToolStripMenuItem.Visible = true;
+                    reportesToolStripMenuItem.Visible = true;
+                    reporteDeRentasToolStripMenuItem.Visible = true;
+                    reportesDeFacturasToolStripMenuItem.Visible = true;
+                    reporteDeHabitacionesToolStripMenuItem.Visible = true;
+                }
+
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
 
         private void habitacionesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,6 +111,13 @@ namespace Win.Hotel
             var formReporteFacturas = new FormReportesFacturas();
             formReporteFacturas.MdiParent = this;
             formReporteFacturas.Show();
+        }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new FormUsuarios();
+            form.MdiParent = this;
+            form.Show();
         }
     }
 }

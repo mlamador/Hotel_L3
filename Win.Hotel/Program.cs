@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BL.Reservas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace Win.Hotel
 {
     static class Program
     {
+        public static Usuario UsuarioLogueado;
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
